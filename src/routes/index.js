@@ -5,8 +5,8 @@ const logs = require('./logs')
 
 router.get('/', (req, res) => {
   res.json({
-    users: 'http://localhost:8080/v1/users',
-    logs: 'http://localhost:8080/v1/logs',
+    users: 'https://sentinellog.azurewebsites.net/v1/users',
+    logs: 'https://sentinellog.azurewebsites.net/v1/logs',
   })
 })
 
